@@ -4,7 +4,12 @@ public class MyGodMain {
 
 	public static void main(String[] args) {
 		//MyGod myGod = new MyGod(); //오류 why?
-
+		MyGod myGod = MyGod.makeGod();
+		
+		System.out.println(myGod);
+		
+		MyGod my2 = MyGod.makeGod();
+		System.out.println(my2);
 	}
 
 }
